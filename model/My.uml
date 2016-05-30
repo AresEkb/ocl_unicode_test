@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yvcV4BWREeWRmaooDOvO2g" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_noersBWVEeWSierZQWePVw" name="Person">
+    <ownedRule xmi:id="_Mes-8BjrEeWBRvpLpxgDaQ" name="posAge" constrainedElement="_noersBWVEeWSierZQWePVw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_Vwq5kBjrEeWBRvpLpxgDaQ">
+        <language>OCL</language>
+        <body>fullName.matches('[А-Яа-я]+')</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:id="_noershWVEeWSierZQWePVw" name="fullName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>
